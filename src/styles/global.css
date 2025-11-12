@@ -5,44 +5,70 @@
     box-sizing: border-box;
     font-family: var(--font-family);
 }
-/* Define variaveis CSS globais (custom properties) */
 
 :root{
-    --color-neutral-black: #263238;
-    --color-neutral-d-grey: #4D4D4D;
-    --color-neutral-grey: #717171;
-    --color-neutral-l-grey: #89939E;
-    --color-neutral-grey-blue: #ABBED1;
+    /* Configurações das cores */
+    --color-shade-:Shade 1,#43A046 ;
+    --color-shade-:Shade 2,#388E3B ;
+    --color-shade-: Shade 3, #237D31;
+    --color-shade-:Shade 4,#1B5E1F ;
+    --color-shade-: Shade 5,#103E13;
+   
+    --color-tint-: Tint 1,#66BB69;
+    --color-tint-: Tint 2,#81C784;
+    --color-tint-:Tint 3,#A5D6A7;
+    --color-tint-:Tint 4,#C8E6C9;
+    --color-tint-:Tint 5,#E8F5E9;
+   
+    --color-neutral-black: #263238; 
+    --color-neutral-d_grey: #4D4D4D; 
+    --color-neutral-grey: #717171; 
+    --color-neutral-l_grey: #89939E; 
     --color-neutral-silver: #F5F7FA;
-    --color-neutral-white: #FFFFFF;
-    --color-neutral-primary: #4CAF4F;
-    --color-neutral-secondary: #263238;
-    --color-neutral-info: #2194f3;
-    --color-neutral-shade1: #43A046;
-    --color-neutral-shade2: #388E3B;
-    --color-neutral-shade3: #237D31;
-    --color-neutral-shade4: #1B5E1F;
-    --color-neutral-shade5: #103E13;
-    --color-neutral-tint1: #66BB69;
-    --color-neutral-tint2: #81C784;
-    --color-neutral-tint3: #A5D6A7;
-    --color-neutral-tint4: #C8E6C9;
-    --color-neutral-tint5: #E8F5E9;
-    --color-neutral-warning: #FBC02D;
-    --color-neutral-error: #E53835;
-    --color-neutral-success: #2E7D31;
+    --color-neutral-white: #FFFFFF; 
+    --color-primary:#4CAF4F;
+    
+  
 
-    /* configurações de fontes */
 
-    --font-family: "inter";
-    --font-headline-1-size: 64px;
+    --color-action-:Warning,#FBC02D;
+    --color-action-:Error,#E53835;
+    --color-action-:Success,#2E7D31;
+
+    --font-family: "inter"; 
+    --font-headline-1-size: 64px; 
     --font-headline-2-size: 36px;
     --font-headline-2-weight: 600;
-    --font-headline-4-size: 20px;
+    --font-headline-4-size: 20px; 
     --font-body2-weight-regular: 400;
-    --font-body3-size: 14px;
+    --font-body3-size: 14px; 
+
 }
 
-a{
+a {
     text-decoration: none;
+}
+
+p {
+    color: var(--color-neutral-grey);
+}
+
+.btn-primary{
+    background-color: var(--color-primary);
+    padding: 14px 32px;
+    border-radius: 4px;
+    align-self: flex-start;
+    margin-top: 16px;
+    
+}
+
+.btn-primary a{
+    color: var(--color-neutral-white);
+
+}
+
+h2{
+    color: var(--color-neutral-d_grey);
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
 }
