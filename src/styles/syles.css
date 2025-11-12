@@ -1,0 +1,53 @@
+@import url('./global.css');
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: var(--color-neutral-silver);
+}
+
+.logo-header img {
+    width: 154px;
+    height: 24px;
+}
+
+.nav-header ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-header ul li a {
+    color:var(--color-neutral-d-grey);
+    font-weight: var(--font-body2-weight-regular);
+    transition: 0.3s;
+}
+
+.nav-header ul li a:hover{
+    color: var(--color-neutral-primary);
+    text-decoration: underline;
+}
+
+.container-btn-header button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container-btn-header .btn-login{
+    background-color: var(--color-neutral-silver);
+}
+
+.container-btn-header .btn-login a{
+    color: var(--color-neutral-primary);
+}
+
+.container-btn-header .btn-sign-up{
+    background-color: var(--color-neutral-primary);
+}
+
+.container-btn-header .btn-sign-up a{
+    color: var(--color-neutral-white);
+}
